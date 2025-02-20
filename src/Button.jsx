@@ -8,13 +8,12 @@ function Button({ children }) {
     </div>
   );
 }
- export const StyledButton = styled.button`
-  width: 100px;
-  height: 70px;
+export const StyledButton = styled.button`
+  height: 36px;
   background-color: #0073ff;
   color: white;
   &:hover {
-    background-color: #0073ff86;
+    background-color: #0073ffc3;
   }
 `;
 

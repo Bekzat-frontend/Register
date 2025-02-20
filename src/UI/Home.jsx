@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { StyledButton } from "../Button";
 
 export function AppRegister() {
   const [state, setState] = useState({
@@ -66,7 +66,7 @@ export function AppRegister() {
           />
           {submitted && !state.Email ? <span>Заполните это поле.</span> : null}
 
-          <button type="submit">Register</button>
+          <StyledButton type="submit">Register</StyledButton>
         </form>
       </div>
     </>
