@@ -1,9 +1,9 @@
-import AppRegister from "./Button";
+import Home from "./UI/Home";
 
 function App() {
   return (
     <>
-      <AppRegister />
+      <Home />
     </>
   );
 }
